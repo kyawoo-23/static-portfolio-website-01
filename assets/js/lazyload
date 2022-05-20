@@ -1,0 +1,6 @@
+const images = document.querySelectorAll(".work-img");
+
+images.forEach( image => {
+  const newSrc = image.getAttribute('data-src');
+  image.src = newSrc;
+})
